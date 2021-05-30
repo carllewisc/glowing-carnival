@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/all.css"> -->
+    <link rel="stylesheet" href="../css/typicons.min.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/myFonts.css">
+    <title>Alava</title>
+</head>
+<body>
+    <nav class="barra-navegacion fixed">
+        <a href="../index.html">
+            <div class="boton-home">
+                <img src="../img/logo.png" alt="">
+            </div>
+        </a>
+    
+        <div class="mobile-book-now">
+            <h4>Reservar</h4>
+        </div>
+    
+        <div class="menu-mobile" id="menu-mobile">
+            <i class="fas fa-bars"></i> 
+        </div>
+    
+        <ul class="menu ">
+            <li class="menu-items"><a href="../pages/alava.html">alava</a></li>
+            <li class="menu-items"><a href="../pages/suites.html">suites</a></li>
+            <li class="menu-items"><a href="../pages/servicios.html">servicios</a></li>
+            <li class="menu-items"><a href="../pages/experiencias.html">experiencias</a></li>
+            <li class="menu-items"><a href="../pages/fotos.html">fotos</a></li>
+            <li class="menu-items"><a href="../pages/contacto.html">contacto</a></li>
+        </ul>
+        
+        <div class="instagram-mas">
+            <div class="container-mas d-flex justify-content-between">
+                <div class="d-flex justify-content-end align-center flex-grow-1 ">
+                    <span class="es">EN</span>
+                    <a href="https://www.instagram.com/alavasuites/?hl=es" target="_blank">
+                        <span class="typcn typcn-social-instagram"></span>
+                        <!-- <i class="fab fa-instagram"></i> -->
+                    </a>
+                </div>
+
+                <h4>reservar</h4>
+            </div>
+            <span class="adult">Adults Only</span>
+        </div>
+    </nav>
+
+    <div class="container container-experiencias">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <h3 class="page-title" >experiencias</h3>
+                
+                <div class="block-experiencia block-main">
+                    <div class="experiencia-img font-img">
+                        <img src="../img/experiencias/yoga.png" alt="">
+                    </div>
+                     <div class="container-info">
+                         <div class="experiencia-content">
+                             <h4>clases yoga</h4>
+                             <p>Las clases se dispondrá para los clientes del hotel y para residentes. Podrán escoger entre clases en grupo (máximo de 5 personas) o clases privadas. El precio para los clientes de Marea de las clases grupales será de (€ por determinar) y el de las privadas de (€ por determinar). También se podrá comprar un bono para toda la estancia con un precio por clase más reducido.</p>
+                             <!-- <span class="info-modal" data-toggle="modal" data-target="#exampleModal" >+info</span> -->
+                             <span class="btn-info-modal">+info</span>
+                         </div>
+                     </div>
+                     <div class="tipos-clases" style="display: none">
+                         <i>Clase Personal  90€</i>
+                         <i>Clase Grupal  20€</i>
+                         <i>Bono 4 clases grupales 60€</i>
+                     </div>
+                </div>
+                
+                
+                <div class="block-experiencia-invertido block-main">
+                    <div class="experiencia-img-invertido font-img">
+                        <img src="../img/experiencias/golf.jpg" alt="">
+                    </div>
+                     <div class="container-info-invertido">
+                         <div class="experiencia-content">
+                             <h4>clases de golf</h4>
+                             <p>Las clases de golf se dispondrá para los clientes del hotel y para residentes. Podrán escoger entre clases en grupo (máximo de 5 personas) o clases privadas. El precio para los clientes de Marea de las clases grupales será de (€ por determinar) y el de las privadas de (€ por determinar). También se podrá comprar un bono para toda la estancia con un precio por clase más reducido.</p>
+                             <span class="btn-info-modal" >+info</span>
+                         </div>
+                     </div>
+                
+                     <div id="tipos-clases" class="tipos-clases" style="display: none">
+                        <i>Clase 100€</i>
+                        <i>Clase  200€</i>
+                        <i>Bono 4 clases grupales 60€</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container-experiencia-modal">
+              <div class="img-experiencia-modal">
+                  <img src="" alt="">
+              </div>
+              <h4 class="modal-title" >titulo</h4>
+              <div class="info-content-modal">
+                  <p class="info-modal">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor consequatur dolore nihil explicabo porro voluptatibus ipsam magnam atque iusto architecto harum at rerum ipsa natus, perferendis aspernatur. Ut sequi eligendi necessitatibus nesciunt, tempora qui adipisci cumque, sint exercitationem ad facere assumenda. Doloribus enim sint, quod voluptatum repudiandae ipsum exercitationem tempore.
+                  </p>
+                  <div class="reservas-modal">
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+    <script src="../js/jquery-3.3.1.js" ></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/all.js" ></script>
+    <script src="../js/app.js" ></script>
+    <script src="../js/modal.js" ></script>
+
+    
+</body>
+</html>

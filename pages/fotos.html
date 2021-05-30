@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/all.css"> -->
+    <link rel="stylesheet" href="../css/typicons.min.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/myFonts.css">
+    <title>Alava</title>
+</head>
+<body>
+    <nav class="barra-navegacion fixed">
+        <a href="../index.html">
+            <div class="boton-home">
+                <img src="../img/logo.png" alt="">
+            </div>
+        </a>
+    
+        <div class="mobile-book-now">
+            <h4>Reservar</h4>
+        </div>
+    
+        <div class="menu-mobile" id="menu-mobile">
+            <i class="fas fa-bars"></i> 
+        </div>
+    
+        <ul class="menu ">
+            <li class="menu-items"><a href="../pages/alava.html">alava</a></li>
+            <li class="menu-items"><a href="../pages/suites.html">suites</a></li>
+            <li class="menu-items"><a href="../pages/servicios.html">servicios</a></li>
+            <li class="menu-items"><a href="../pages/experiencias.html">experiencias</a></li>
+            <li class="menu-items"><a href="../pages/fotos.html">fotos</a></li>
+            <li class="menu-items"><a href="../pages/contacto.html">contacto</a></li>
+        </ul>
+        
+        <div class="instagram-mas">
+            <div class="container-mas d-flex justify-content-between">
+                <div class="d-flex justify-content-end align-center flex-grow-1 ">
+                    <span class="es">EN</span>
+                    <a href="https://www.instagram.com/alavasuites/?hl=es" target="_blank">
+                        <span class="typcn typcn-social-instagram"></span>
+                        <!-- <i class="fab fa-instagram"></i> -->
+                    </a>
+                </div>
+
+                <h4>reservar</h4>
+            </div>
+            <span class="adult">Adults Only</span>
+        </div>
+    </nav>
+
+        <div class="container-fluid container-galeria">
+            <div class="grid">
+            
+                <div class="grid-item grid-sizer"><img src="../img/galeria/1.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/2.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/3.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/4.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/5.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/6.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/7.png" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/8.png" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/9.png" alt=""></div>
+
+                <div class="grid-item grid-sizer"><img src="../img/galeria/11.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/10.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/12.jpg" alt=""></div>
+
+                <div class="grid-item grid-sizer"><img src="../img/galeria/14.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/13.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/15.jpg" alt=""></div>
+
+                <div class="grid-item grid-sizer"><img src="../img/galeria/16.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/17.jpg" alt=""></div>
+                <div class="grid-item grid-sizer"><img src="../img/galeria/18.jpg" alt=""></div>
+                
+               
+                <!-- <div class="grid-item"><img src="img/medium_MKSADLER-5596.jpg" alt=""></div>
+                <div class="grid-item"><img src="img/medium_MKSADLER-5619_web.jpg" alt=""></div>
+                <div class="grid-item"><img src="img/medium_MKSADLER-5647_web.jpg" alt=""></div>
+                <div class="grid-item"><img src="img/medium_MKSADLER-5702_web.jpg" alt=""></div> -->
+                
+            </div>
+        </div>
+        
+        
+
+
+    <script src="../js/jquery-3.3.1.js" ></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/imagesloaded.min.js"></script>
+    <script src="../js/masonry.pkgd.min.js" ></script>
+    <script src="../js/all.js" ></script>
+    <script src="../js/app.js" ></script>
+    <script type="text/javascript">
+
+        var $grid = $('.grid').imagesLoaded( function() {
+            // init Masonry after all images have loaded
+            $grid.masonry({
+                // options
+                itemSelector: '.grid-item',
+                columnWidth: '',
+                percentPosition: true,
+                /* horizontalOrder: true */
+            });
+        });
+        
+    </script>
+    
+</body>
+</html>

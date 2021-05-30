@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Brown Light";
+    src: url(../myFonts/BrownLight.ttf);
+}
+
+@font-face {
+    font-family: "Brown bold";
+    src: url(../myFonts/Brown\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "Rotterdalle";
+    src: url(../myFonts/Rotterdalle.otf);
+}
+
+@font-face {
+    font-family: "Accord Regular";
+    src: url(../myFonts/AccordRegular.otf);
+}
+
+@font-face {
+    font-family: "Accord Light";
+    src: url(../myFonts/AccordLight.otf);
+}
+
+@font-face {
+    font-family: "Accord Thin";
+    src: url(../myFonts/Accord_Thin.otf);
+}
